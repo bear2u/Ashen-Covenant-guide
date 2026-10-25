@@ -25,6 +25,7 @@ jobs:
       - run: npm run build
       - run: npm run lint:docs
       - run: npm run check:links
+      - run: npm run check:public -- --built
       - uses: actions/upload-pages-artifact@v3
         if: github.event_name != 'pull_request'
         with:

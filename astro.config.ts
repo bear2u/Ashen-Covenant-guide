@@ -19,10 +19,9 @@ const config = defineNimbusConfig({
     { label: '거점과 던전', autogenerate: { directory: 'world' } },
     { label: '빌드 가이드', link: '/builds/guide/' },
     { label: '도움말', autogenerate: { directory: 'help' } },
-    { label: '개발 참고', autogenerate: { directory: 'reference' } },
     { label: '업데이트 내역', autogenerate: { directory: 'updates' } },
   ] },
-  github: 'https://github.com/bear2u/Ashen-Covenant-guide',
+  github: null,
   editPattern: null,
   socialImageAlt: '재의 성약 Ashen Covenant 한국어 가이드',
 });

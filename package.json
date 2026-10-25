@@ -9,10 +9,10 @@
     "preview": "astro preview",
     "typecheck": "astro check",
     "lint:docs": "nimbus-docs lint",
-    "prebuild": "node scripts/sync-docs.mjs && node scripts/theme.mjs",
+    "prebuild": "node scripts/sync-docs.mjs && node scripts/check-public-copy.mjs && node scripts/theme.mjs",
     "check:links": "node scripts/check-links.mjs",
-    "sync:game": "node scripts/sync-docs.mjs --source ../../AshenCovenant/docs",
-    "check": "npm run typecheck && npm run build && npm run lint:docs && npm run check:links"
+    "check": "npm run typecheck && npm run build && npm run lint:docs && npm run check:links && npm run check:public -- --built",
+    "check:public": "node scripts/check-public-copy.mjs"
   },
   "dependencies": {
     "@cloudflare/nimbus-docs": "0.18.1",

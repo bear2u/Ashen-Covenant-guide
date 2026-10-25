@@ -1,21 +1,98 @@
 [
-  ["README.md", "index", "재의 성약 가이드", "첫 출정부터 장비와 빌드, 전투 공식까지 한곳에서 찾아보세요."],
-  ["01-getting-started.md", "start/getting-started", "시작하기", "실행과 접속, 첫 한 시간에 알아둘 성장과 출정의 순서."],
-  ["02-controls.md", "start/controls", "PC·모바일 조작", "이동, 검격, 기술, 회피와 터치 화면 조작 안내."],
-  ["03-game-flow.md", "start/game-flow", "게임 흐름", "거점에서 여섯 구역의 던전을 지나 보스와 다음 난도로."],
-  ["04-character.md", "growth/character", "캐릭터 성장", "레벨과 경험치, 네 가지 능력치, 방어와 저항, 재분배."],
-  ["05-skills.md", "growth/skills", "기술과 시너지", "뇌격 검술·잿불 파열·강철 맹세의 기술 수치와 선행 조건."],
-  ["06-combat.md", "growth/combat", "전투 공식", "물리·원소 피해, 치명타, 공격 속도와 피해 감소 계산."],
-  ["07-items.md", "items/basics", "아이템 기본", "장비 칸, 기반 38종, 품질과 요구치, 가격과 마법 아이템 발견."],
-  ["08-affixes.md", "items/affixes", "옵션 목록", "접두 14계열과 접미 16계열의 전체 등급과 수치."],
-  ["09-uniques-sets.md", "items/uniques-sets", "고유·세트", "고유 장비 16종과 세트 두 종류의 효과 및 보너스."],
-  ["10-sockets-runewords.md", "items/sockets-runewords", "소켓·보석·룬워드", "소켓 규칙, 보석 20종, 룬 12종과 룬워드 여덟 종류."],
-  ["11-hub-services.md", "world/hub", "거점 시설", "상인, 도박, 보관함과 연금 도가니 조합 안내."],
-  ["12-monsters-loot.md", "world/monsters-loot", "몬스터와 드롭", "적과 정예 속성, 대주교 패턴, 난도별 드롭 규칙."],
-  ["13-build-guide.md", "builds/guide", "빌드 가이드", "뇌격·잿불·강철 빌드의 포인트 순서와 장비 우선순위."],
-  ["14-save-data.md", "help/save-data", "저장과 데이터", "진행 저장, 손상 처리와 이전 저장 형식의 이동."],
-  ["15-developer.md", "reference/developer", "개발자 가이드", "게임 코드 구조, 데이터 확장, 테스트와 에셋 작업."],
-  ["16-d2data-mapping.md", "reference/d2data-mapping", "d2data 대응표", "성장·아이템·드롭 데이터의 참조 관계와 적용 범위."],
-  ["17-faq.md", "help/faq", "자주 묻는 질문", "성장, 기술, 장비, 저장과 조작에서 막히는 상황을 해결합니다."],
-  ["runway-assets.md", "reference/runway-assets", "배경·음악·효과음", "성당 배경과 거점·던전·보스 음악, 전투 효과음의 구성."]
+  [
+    "README.md",
+    "index",
+    "재의 성약 가이드",
+    "첫 출정부터 장비와 빌드, 전투 공식까지 한곳에서 찾아보세요."
+  ],
+  [
+    "01-getting-started.md",
+    "start/getting-started",
+    "시작하기",
+    "게임을 시작하고 첫 출정에 나서기까지 알아둘 순서."
+  ],
+  [
+    "02-controls.md",
+    "start/controls",
+    "PC·모바일 조작",
+    "이동, 검격, 기술, 회피와 터치 화면 조작 안내."
+  ],
+  [
+    "03-game-flow.md",
+    "start/game-flow",
+    "게임 흐름",
+    "거점에서 여섯 구역의 던전을 지나 보스와 다음 난도로."
+  ],
+  [
+    "04-character.md",
+    "growth/character",
+    "캐릭터 성장",
+    "레벨과 경험치, 네 가지 능력치, 방어와 저항, 재분배."
+  ],
+  [
+    "05-skills.md",
+    "growth/skills",
+    "기술과 시너지",
+    "뇌격 검술·잿불 파열·강철 맹세의 기술 수치와 선행 조건."
+  ],
+  [
+    "06-combat.md",
+    "growth/combat",
+    "전투 공식",
+    "물리·원소 피해, 치명타, 공격 속도와 피해 감소 계산."
+  ],
+  [
+    "07-items.md",
+    "items/basics",
+    "아이템 기본",
+    "장비 칸, 기반 38종, 품질과 요구치, 가격과 마법 아이템 발견."
+  ],
+  [
+    "08-affixes.md",
+    "items/affixes",
+    "옵션 목록",
+    "접두 14계열과 접미 16계열의 전체 등급과 수치."
+  ],
+  [
+    "09-uniques-sets.md",
+    "items/uniques-sets",
+    "고유·세트",
+    "고유 장비 16종과 세트 두 종류의 효과 및 보너스."
+  ],
+  [
+    "10-sockets-runewords.md",
+    "items/sockets-runewords",
+    "소켓·보석·룬워드",
+    "소켓 규칙, 보석 20종, 룬 12종과 룬워드 여덟 종류."
+  ],
+  [
+    "11-hub-services.md",
+    "world/hub",
+    "거점 시설",
+    "상인, 도박, 보관함과 연금 도가니 조합 안내."
+  ],
+  [
+    "12-monsters-loot.md",
+    "world/monsters-loot",
+    "몬스터와 드롭",
+    "적과 정예 속성, 대주교 패턴, 난도별 드롭 규칙."
+  ],
+  [
+    "13-build-guide.md",
+    "builds/guide",
+    "빌드 가이드",
+    "뇌격·잿불·강철 빌드의 포인트 순서와 장비 우선순위."
+  ],
+  [
+    "14-save-data.md",
+    "help/save-data",
+    "저장과 이어하기",
+    "자동 저장, 이어하기와 저장 문제가 생겼을 때의 안내."
+  ],
+  [
+    "17-faq.md",
+    "help/faq",
+    "자주 묻는 질문",
+    "성장, 기술, 장비, 저장과 조작에서 막히는 상황을 해결합니다."
+  ]
 ]
