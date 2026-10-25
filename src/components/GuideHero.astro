@@ -1,0 +1,10 @@
+---
+import { withBase } from '@cloudflare/nimbus-docs/runtime';
+---
+<figure class="guide-hero">
+  <img src={withBase('/images/cathedral.jpg', import.meta.env.BASE_URL)} width="1920" height="1072" alt="어두운 석조 회랑과 금빛 성화가 남아 있는 재의 성약 대성당" fetchpriority="high" />
+</figure>
+<style>
+  .guide-hero { margin: 1.5rem 0; border: 1px solid var(--nb-border); border-radius: 0.6rem; overflow: hidden; }
+  .guide-hero img { display: block; width: 100%; height: auto; max-height: 22rem; object-fit: cover; object-position: 70% 50%; margin: 0; }
+</style>
